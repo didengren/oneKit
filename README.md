@@ -23,20 +23,6 @@ oneKit
             │   └───_base
             └───scss
 
-Where `/path/to/file/or/dir/` has the directory structure:
-
-    dir
-     |- branch
-     |   |- sub-branch
-     |   |   |- leaf.png
-     |   |   |- acorn.png
-     |   |
-     |   |- other-sub-branch
-     |       |- ...
-     |    
-     |- other-branch
-         |- ...
-
 组件
 ======
 弹窗组件(Overlay) - [https://github.com/wxyudl/oneKit/blob/master/docs/OVERLAY.md](https://github.com/wxyudl/oneKit/blob/master/docs/OVERLAY.md)
