@@ -25,4 +25,4 @@ oneKit
 
 组件
 ======
-· 弹窗组件(Overlay) - [https://github.com/wxyudl/oneKit/blob/master/docs/OVERLAY.md](https://github.com/wxyudl/oneKit/blob/master/docs/OVERLAY.md)
+▪ 弹窗组件(Overlay) - [https://github.com/wxyudl/oneKit/blob/master/docs/OVERLAY.md](https://github.com/wxyudl/oneKit/blob/master/docs/OVERLAY.md)
