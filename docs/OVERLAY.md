@@ -8,8 +8,11 @@ require.js引用overlay组件。
 >
 > opts(对象格式):
 >> title: 头文字
+>
 >> id: 指定弹窗ID，随意
+>
 >> content: 弹窗主题内容
+>
 >> width: 弹窗宽度 - 可选值small(默认), normal
 > .show(): 弹出弹窗
 
