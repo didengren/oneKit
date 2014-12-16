@@ -5,6 +5,7 @@ oneKit
 
 组件依赖于：jQuery, require.js, ionicons.css
 
+## Code Example
 目录结构：
 
 ├───assets
