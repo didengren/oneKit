@@ -14,14 +14,16 @@ require.js引用overlay组件。
 >> content: 弹窗主题内容
 >
 >> width: 弹窗宽度 - 可选值small(默认), normal
-> .show(): 弹出弹窗
+> 
+.show(): 弹出弹窗
 
 
 ### 例子
-require(['../../dist/js/overlay', '../../assets/text!./templates/formFragment.html'], function(overlay, html){
-	$(function(){
-		$('#pop').on('click', function(){
-			overlay.init({title: "会员登录", id: "okit-login-overlay", content: html, "width": "small"}).show();
+    require(['../../dist/js/overlay', '../../assets/text!./templates/formFragment.html'], function(overlay, html){
+		$(function(){
+			$('#pop').on('click', function(){
+				overlay.init({title: "会员登录", id: "okit-login-overlay", content: html, "width": "small"}).show();
+			})
 		})
 	})
-})
+###
