@@ -27,3 +27,7 @@ require.js引用overlay组件。
 		})
 	})
 ###
+
+Demo
+====
+[http://wxyu.sinaapp.com/oneKit/examples/overlay.html](http://wxyu.sinaapp.com/oneKit/examples/overlay.html)
