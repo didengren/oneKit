@@ -1,0 +1,13 @@
+// 盒子阴影： $h - 水平阴影位置， $v - 垂直阴影位置， $blur - 模糊半径， $spread - 阴影尺寸， $color - 阴影颜色
+@mixin boxShadow($h, $v, $blur, $spread, $color){
+	-webkit-box-shadow: $h $v $blur $spread $color;
+	-moz-box-shadow: $h $v $blur $spread $color;
+	box-shadow: $h $v $blur $spread $color;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=$color, Direction=45, Strength=10);
+}
+
+@mixin borderRaduis($r){
+	-moz-border-radius: $r;
+	-webkit-border-radius: $r;
+	border-radius: $r;
+}

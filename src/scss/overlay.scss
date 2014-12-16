@@ -1,0 +1,71 @@
+@import "theme";
+@import "css3";
+
+.okit-overlay{
+	display: none;
+	position: fixed;
+	background-color: #FFFFFF;
+	z-index: 100;
+	@include boxShadow(5px, 5px, 10px, -4px, $themeColor);
+	
+	&.okit-normal{
+		width: 40%;
+	}
+	
+	&.okit-small{
+		width: 30%;
+	}
+
+	.okit-overlay-close{
+		position: absolute;
+		right: 0;
+		top: 0;
+		line-height: 0;
+		color: #FFFFFF;
+		font-size: 2.9em;
+		padding: 0 .3em;
+
+		&:hover{
+			background-color: $themeAltColor;
+			cursor: pointer;
+		}
+	}
+
+	.okit-overlay-title h3{
+		background-color: $themeColor;
+		color: #FFFFFF;
+		padding: .625em;
+		margin: 0;
+	}
+
+	.okit-overlay-main{
+		padding: .625em;
+		border: 1px solid $themeColor;
+	}
+
+	.okit-form input{
+		border: 1px solid $greyColor;
+		line-height: 2em;
+		font-size: .9em;
+		padding: 0 .2em;
+
+		&:focus{
+			outline: none;
+		}
+	}
+
+	.okit-form label{
+		display: inline-block;
+		min-width: 5em;
+	}
+
+	input.okit-normal-button{
+		background-color: $themeColor;
+		color: #FFFFFF;
+		border: none;
+		padding: .6em .8em;
+		@include borderRaduis(2px);
+		font-size: 1em;
+		line-height: 1em;
+	}
+}
