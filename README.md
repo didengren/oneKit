@@ -28,7 +28,12 @@ main.js代码
 require(['/dist/js/overlay'], function(overlay){
 	$(function(){
 		$('#pop').on('click', function(){
-			overlay.init({title: "这是头部", id: "okit-login-overlay", content: "写点东西放在这里", "width": "small"}).show();
+			overlay.init({
+				title: "这是头部",
+				id: "okit-login-overlay",
+				content: "写点东西放在这里",
+				width: "small"
+			}).show();
 		})
 	})
 })
