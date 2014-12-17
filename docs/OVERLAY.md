@@ -13,7 +13,7 @@ require.js引用overlay组件。
 >
 >> content: 弹窗主题内容
 >
->> width: 弹窗宽度 - 可选值small(默认), normal或自定义尺寸(支持px、em、% 例: 120px)
+>> width: 弹窗宽度 - 可选值small(默认), normal或自定义尺寸(支持px、em、%单位，例: 120px)
 > 
 .show(): 弹出弹窗
 
