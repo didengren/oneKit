@@ -5,8 +5,9 @@ oneKit
 
 组件依赖于：jQuery, require.js, ionicons.css
 
-安装: [以```弹窗组件```为例]
-====
+*********** 一下以```弹窗组件```为例 ************
+安装: 
+===
 引入```jQuery```, ```ionicons.css```和```相关组件js```和```css文件```，详细参看下方个组件详细文档。
 ```html
 <script src="/assets/jquery-1.11.1.min.js"></script>
