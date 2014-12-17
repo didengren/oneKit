@@ -17,7 +17,7 @@ oneKit
 ```
 使用:
 ====
-引入```require.js```并添加主文件```html data-main="./js/main.js" ```
+引入```require.js```并添加主文件```javascript data-main="./js/main.js" ```
 ```html
 <script src="/assets/require.js" data-main="./js/main.js"></script>
 ```
