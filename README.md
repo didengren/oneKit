@@ -40,6 +40,7 @@ main.js代码
 require(['oneKit/overlay'], function(overlay){
 	$(function(){
 		$('#pop').on('click', function(){
+			// 初始化配置，弹出弹窗
 			overlay.init({
 				title: "这是头部",
 				id: "okit-login-overlay",
