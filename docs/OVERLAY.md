@@ -13,7 +13,7 @@ require.js引用overlay组件。
 >
 >> content: 弹窗主题内容
 >
->> width: 弹窗宽度 - 可选值small(默认), normal
+>> width: 弹窗宽度 - 可选值small(默认), normal或自定义尺寸(支持px、em、% 例: 120px)
 > 
 .show(): 弹出弹窗
 
@@ -21,7 +21,12 @@ require.js引用overlay组件。
 例子
 ======
 ```javascript
-require(['../../dist/js/overlay', '../../assets/text!./templates/formFragment.html'], function(overlay, html){
+requirejs.config({
+    paths: {
+        'oneKit/overlay': '../../dist/js/overlay' //指定Module所在的路径
+    }
+});
+require(['oneKit/overlay', '../../assets/text!./templates/formFragment.html'], function(overlay, html){
 	$(function(){
 		$('#pop').on('click', function(){
 			overlay.init({
