@@ -11,8 +11,6 @@ oneKit
 引入```jQuery```, ```ionicons.css```和```相关组件js```和```css文件```，详细参看下方个组件详细文档。
 ```html
 <script src="/assets/jquery-1.11.1.min.js"></script>
-```
-```html
 <link href="/dist/css/ionicons.css" rel="stylesheet" type="text/css" />
 <!-- 弹窗组件样式 -->
 <link href="/dist/css/overlay.css" rel="stylesheet" type="text/css" />
