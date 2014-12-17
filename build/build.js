@@ -1,7 +1,7 @@
 ﻿({
     appDir: '../src/js',          /* 应用程序的目录即<ROOT> */
-    baseUrl: './',      /* 相对于appDir, 代表查找文件的锚点 */
-    dir: '../dist/js',      /* 输出目录 */
+    baseUrl: './',                /* 相对于appDir, 代表查找文件的锚点 */
+    dir: '../dist/js',            /* 输出目录 */
     modules: [
         {
             name: 'overlay'
