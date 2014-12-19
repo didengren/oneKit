@@ -4,12 +4,11 @@ require.js引用tooltip组件。
 
 说明
 ====
-页面中的html代码中包含class="okit-tooltip" 和title="你要在tooltip中显示的内容"就会自动加上tooltip功能。
+页面中的html代码中包含```class="okit-tooltip"``` 和```title="你要在tooltip中显示的内容"```就会```自动```加上tooltip功能。
 
 参数
 ====
 无参数
-
 
 例子
 ======
