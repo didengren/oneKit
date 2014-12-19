@@ -5,6 +5,9 @@
     modules: [
         {
             name: 'overlay'
+        },
+        {
+            name: 'tooltip'
         }
     ],
 	fileExclusionRegExp: /^(r|build|example\.build)\.js$/,    /* 任何于此规则匹配的文件或文件夹都不会复制到输出目录 */

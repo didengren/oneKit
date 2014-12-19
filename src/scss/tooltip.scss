@@ -1,0 +1,26 @@
+@import "css3";
+@import "theme";
+
+.okit-tooltip{
+	&:hover{
+		cursor: pointer;
+	}
+}
+
+#okit-tooltip-widget{
+	background-color: $themeColor;
+	color: #FFFFFF;
+	padding: .4rem .6rem;
+	display: none;
+	font-size: .8rem;
+
+	#okit-tooltip-arrow{
+		width: 10px;
+		height: 10px;
+		display: inline-block;
+		position: absolute;
+		top: -5px;
+		background-color: $themeColor;
+		transform: rotate(45deg);
+	}
+}
