@@ -4,7 +4,7 @@ require.js引用tooltip组件。
 
 说明
 ====
-Tooltip是实现鼠标滑过现实一些附加信息等的功能，当页面中的html代码中包含```class="okit-tooltip"``` 和```title="你要在tooltip中显示的内容"```就会```自动```加上tooltip功能。
+Tooltip是实现鼠标滑过时显示一些附加信息的组件，当页面的html代码中包含```class="okit-tooltip"``` 和```title="你要在tooltip中显示的内容"```就会```自动```加上tooltip功能。
 
 安装: 
 ===
@@ -38,6 +38,7 @@ main.js代码
 ```javascript
 // 引入依赖模块tooltip
 require(['oneKit/tooltip'], function(){
+	// 无需参数，自动绑定tooltip
 	// 你的代码
 })
 ```
